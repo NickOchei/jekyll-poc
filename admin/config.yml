@@ -32,8 +32,8 @@ collections:
           timeFormat: false
         }
       - {label: "Body", name: "body", widget: "markdown"}
-      - name: 'pages'
-  - label: 'Pages'
+  - name: 'pages'
+    label: 'Pages'
     editor:
     preview: false
     files:
