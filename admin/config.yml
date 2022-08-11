@@ -33,10 +33,10 @@ collections:
         }
       - {label: "Body", name: "body", widget: "markdown"}
       - name: 'pages'
- - label: 'Pages'
-  editor:
+  - label: 'Pages'
+    editor:
     preview: false
-  files:
+    files:
     - label: 'About Page'
       name: 'about'
       file: 'about.md'
