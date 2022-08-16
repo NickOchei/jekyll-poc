@@ -34,11 +34,11 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
   - label: "Pages"
     name: "pages"
+    create: true
     files:
       - label: "About Page"
         name: "about"
         file: "site/content/about.yml"
-        create: true
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Intro, name: intro, widget: markdown}
