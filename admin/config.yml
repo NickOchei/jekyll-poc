@@ -38,6 +38,7 @@ collections:
       - label: "About Page"
         name: "about"
         file: "site/content/about.yml"
+        create: true
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Intro, name: intro, widget: markdown}
@@ -62,6 +63,7 @@ collections:
               - {label: Address, name: address, widget: string}
   - name: 'config'
     label: 'Navigation'
+    create: true
     editor:
       preview: false
     files:
