@@ -35,6 +35,7 @@ collections:
   - label: "Pages"
     name: "pages"
     create: true
+    file: "site/content/about.yml"
     fields:
           - {label: Title, name: title, widget: string}
           - {label: Intro, name: intro, widget: markdown}
