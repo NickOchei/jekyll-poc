@@ -17,7 +17,7 @@ COPY Gemfile /app
 COPY Gemfile.lock /app
 
 RUN npm install --prefix assets && \
-  npm --prefix ./assets ci --progress=false --no-audit --loglevel=error
+  npm --prefix ./assets ci --progress=false --no-audit --loglevel=error --no-save --legacy-peer-deps
 
 RUN gem install bundler:1.17.2
 RUN bundle install
