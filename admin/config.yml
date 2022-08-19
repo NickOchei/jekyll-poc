@@ -35,7 +35,7 @@ collections:
   - label: "Pages"
     name: "pages"
     create: true
-    file: "_pages/"
+    file: "_pages/document.md"
     fields:
           - {label: Title, name: title, widget: string}
           - {label: Intro, name: intro, widget: markdown}
